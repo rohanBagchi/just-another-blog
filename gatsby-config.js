@@ -3,7 +3,7 @@ module.exports = {
     title: `Collection of notes and musings`,
     author: {
       name: `Rohan Bagchi`,
-      summary: `who lives and works in Berlin, Germany.`,
+      summary: `who lives and works in Bangalore, India.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -78,6 +78,8 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-mdx`,
+    `@pauliescanlon/gatsby-mdx-embed`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
